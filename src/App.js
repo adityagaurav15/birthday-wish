@@ -12,7 +12,7 @@ function App() {
           transition={{ type: "spring", stiffness: 120 }}
           className="birthday-heading"
         >
-          🎉 Happy Birthday! 🎉
+          🎉 Happy Birthday Aditya! 🎉
         </motion.h1>
         <motion.div
           initial={{ opacity: 0 }}
