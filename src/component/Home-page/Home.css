@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@400;700&display=swap');
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.birthday-container {
+  text-align: center;
+  z-index: 2;
+}
+
+.birthday-heading {
+  font-size: 4rem;
+  color: #fff7e6;
+  margin-bottom: 20px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.birthday-message {
+  font-size: 1.8rem;
+  color: #fef5d8;
+  margin-bottom: 30px;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.birthday-cake {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  animation: bounce 2s infinite;
+}
+
+.surprise-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.surprise-button:hover {
+  background-color: #ff914d;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Background Animation */
+/* .background-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #ff6f61, #ff9a9e, #fecfef);
+  animation: bg-move 10s infinite alternate;
+  z-index: 1;
+  opacity: 0.9;
+} */
+
+@keyframes bg-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.background-animation {
+    position: relative;
+    width: 100vw; /* Changed from vm to vw */
+    height: 100vh;
+    z-index: 1;
+    overflow: hidden; /* Ensures pseudo-elements don’t overflow */
+}
+
+.background-animation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover left half of the screen */
+    height: 100%;
+    background-image: url(/src/assets/background.JPEG); /* First image */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust the opacity */
+    z-index: -1;
+}
+
+

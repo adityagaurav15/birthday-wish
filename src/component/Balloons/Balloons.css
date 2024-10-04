@@ -1,0 +1,59 @@
+/* Balloons.css */
+.balloons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  
+  .balloon {
+    position: absolute;
+    bottom: -150px;
+    width: 100px;
+    height: 150px;
+    background-color: rgba(255, 99, 132, 0.7);
+    border-radius: 50%;
+    animation: float 5s infinite;
+    opacity: 0.8;
+  }
+  
+  .balloon1 {
+    left: 10%;
+    animation-duration: 6s;
+    background-color: rgba(54, 162, 235, 0.7);
+  }
+  
+  .balloon2 {
+    left: 30%;
+    animation-duration: 7s;
+    background-color: rgba(255, 206, 86, 0.7);
+  }
+  
+  .balloon3 {
+    left: 50%;
+    animation-duration: 8s;
+    background-color: rgba(75, 192, 192, 0.7);
+  }
+  
+  .balloon4 {
+    left: 70%;
+    animation-duration: 6s;
+    background-color: rgba(153, 102, 255, 0.7);
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+      opacity: 0.8;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-120vh);
+      opacity: 0;
+    }
+  }
+  

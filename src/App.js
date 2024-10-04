@@ -1,46 +1,44 @@
-import React from "react";
-import { motion } from "framer-motion";
-import "./App.css";
+// src/App.js
+import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
+import Home from "./component/Home-page/Home";
+import BirthdayCard from "./component/Birthday-Card/BirthdayCard";
+import CakeCutting from "./component/Cake-Cutting/CakeCutting";
+import BirthdayCountdown from "./component/Birthday-Countdown/birthday-countdown";
 
 function App() {
+  const birthdayDate = new Date("2024-11-03T00:00:00"); // Set your birthday date here
+  const [isBirthdayPassed, setIsBirthdayPassed] = useState(false);
+
+  useEffect(() => {
+    const now = new Date();
+    if (now > birthdayDate) {
+      setIsBirthdayPassed(true); // Set to true if the birthday date has passed
+    }
+  }, [birthdayDate]);
+
   return (
-    <div className="App">
-      <div className="birthday-container">
-        <motion.h1
-          initial={{ y: -250 }}
-          animate={{ y: 0 }}
-          transition={{ type: "spring", stiffness: 120 }}
-          className="birthday-heading"
-        >
-          🎉 Happy Birthday Aditya! 🎉
-        </motion.h1>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 1.5 }}
-        >
-          <p className="birthday-message">
-            Wishing you a day filled with love, joy, and laughter!
-          </p>
-        </motion.div>
-
-        <motion.div
-          className="birthday-cake"
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 1, delay: 1.5 }}
-        >
-          🎂
-        </motion.div>
-
-        <motion.button
-          className="surprise-button"
-          whileHover={{ scale: 1.1, rotate: 5 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          Click for a Surprise!
-        </motion.button>
-      </div>
+    <div>
+      <Routes>
+        <Route
+          path="/count"
+          element={<BirthdayCountdown birthdayDate={birthdayDate.toString()} />}
+        />
+        {isBirthdayPassed ? (
+          <>
+            <Route path="/" element={<Home />} />
+            <Route path="/cards" element={<BirthdayCard />} />
+            <Route path="/cake" element={<CakeCutting />} />
+          </>
+        ) : (
+          <Route
+            path="/"
+            element={
+              <BirthdayCountdown birthdayDate={birthdayDate.toString()} />
+            }
+          />
+        )}
+      </Routes>
     </div>
   );
 }
