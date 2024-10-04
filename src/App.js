@@ -27,7 +27,7 @@ function App() {
         /> */}
         {isBirthdayPassed ? (
           <>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/cards" element={<BirthdayCard />} />
             <Route path="/cake" element={<CakeCutting />} />
           </>
