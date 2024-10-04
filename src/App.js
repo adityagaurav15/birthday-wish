@@ -1,5 +1,5 @@
 // src/App.js
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Home from "./component/Home-page/Home";
 import BirthdayCard from "./component/Birthday-Card/BirthdayCard";
@@ -20,26 +20,28 @@ function App() {
 
   return (
     <div>
-      <Routes>
-        {/* <Route
+      <BrowserRouter basename="/birthday-wish">
+        <Routes>
+          {/* <Route
           path="/count"
           element={<BirthdayCountdown birthdayDate={birthdayDate.toString()} />}
         /> */}
-        {isBirthdayPassed ? (
-          <>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/cards" element={<BirthdayCard />} />
-            <Route path="/cake" element={<CakeCutting />} />
-          </>
-        ) : (
-          <Route
-            path="/"
-            element={
-              <BirthdayCountdown birthdayDate={birthdayDate.toString()} />
-            }
-          />
-        )}
-      </Routes>
+          {isBirthdayPassed ? (
+            <>
+              <Route path="/" element={<Home />} />
+              <Route path="/cards" element={<BirthdayCard />} />
+              <Route path="/cake" element={<CakeCutting />} />
+            </>
+          ) : (
+            <Route
+              path="/"
+              element={
+                <BirthdayCountdown birthdayDate={birthdayDate.toString()} />
+              }
+            />
+          )}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
