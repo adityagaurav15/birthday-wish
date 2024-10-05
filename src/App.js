@@ -7,8 +7,8 @@ import CakeCutting from "./component/Cake-Cutting/CakeCutting";
 import BirthdayCountdown from "./component/Birthday-Countdown/birthday-countdown";
 
 function App() {
-  //const birthdayDate = new Date("2024-11-03T00:00:00"); // Set your birthday date here
-  const birthdayDate = new Date("2024-01-03T00:00:00");
+  const birthdayDate = new Date("2024-11-03T00:00:00"); // Set your birthday date here
+  //const birthdayDate = new Date("2024-01-03T00:00:00");
   const [isBirthdayPassed, setIsBirthdayPassed] = useState(false);
 
   useEffect(() => {
