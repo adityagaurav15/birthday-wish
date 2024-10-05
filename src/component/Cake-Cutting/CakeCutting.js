@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./CakeCutting.css"; // Import CSS for styling
 
 const CakeCutting = () => {

@@ -19,7 +19,7 @@ const BirthdayCard = () => {
             </h3>
           </div>
           <div class="inside">
-            <img src={cakegif} />
+            <img src={cakegif} alt="cake" />
             <h3>
               Sending you an infinite amount of love, joy, and happiness on your
               birthday!
