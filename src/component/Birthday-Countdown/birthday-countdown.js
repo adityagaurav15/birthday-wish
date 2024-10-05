@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-
 import Dialog from "@mui/material/Dialog";
-
 import DialogTitle from "@mui/material/DialogTitle";
 import "./birthday-countdown.css";
 
@@ -45,7 +43,8 @@ const BirthdayCountdown = ({ birthdayDate }) => {
   return (
     <>
       <div className="countdown">
-        <h1>Countdown to Birthday!</h1>
+        <h1>Hey Saloni</h1>
+        <h1>The Countdown to your Birthday has begun!</h1>
         <div className="timer">
           <div className="time">
             <span>{timeLeft.days}</span>
