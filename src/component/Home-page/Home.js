@@ -25,8 +25,7 @@ const Home = () => {
             transition={{ type: "spring", stiffness: 80 }}
             className="birthday-heading"
           >
-            {/* 🎉 Aditya portfolio 🎉 */}
-            Aditya portfolio
+            🎉 Happy Birthday Saloni 🎉
           </motion.h1>
 
           <motion.div
@@ -56,14 +55,6 @@ const Home = () => {
             onClick={handleSurpriseClick}
           >
             Click to cut the cake
-          </motion.button>
-          <motion.button
-            className="surprise-button"
-            whileHover={{ scale: 1.2, rotate: 5, backgroundColor: "#ff914d" }}
-            whileTap={{ scale: 0.9 }}
-            onClick={() => navigate("/cards")}
-          >
-            Click to cards
           </motion.button>
         </div>
       </div>

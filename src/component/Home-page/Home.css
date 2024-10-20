@@ -85,10 +85,10 @@
 }
 .background-animation {
     position: relative;
-    width: 100vw; /* Changed from vm to vw */
+    width: 100vw; 
     height: 100vh;
     z-index: 1;
-    overflow: hidden; /* Ensures pseudo-elements don’t overflow */
+    overflow: hidden; 
 }
 
 .background-animation::before {
@@ -96,13 +96,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Cover left half of the screen */
+    width: 100%;
     height: 100%;
-    background-image: url(/src/assets/background.JPEG); /* First image */
+    background-image: url(/src/assets/homePage.jpg); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.5; /* Adjust the opacity */
+    opacity: 0.2;
     z-index: -1;
 }
 
