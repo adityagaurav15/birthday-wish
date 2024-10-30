@@ -16,7 +16,6 @@ const Home = () => {
       <div className="App">
         <Confetti width={window.innerWidth} height={window.innerHeight} />
         <Balloons />
-        <motion.div className="" />
 
         <div className="birthday-container">
           <motion.h1

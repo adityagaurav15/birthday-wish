@@ -5,16 +5,17 @@ import Home from "./component/Home-page/Home";
 import BirthdayCard from "./component/Birthday-Card/BirthdayCard";
 import CakeCutting from "./component/Cake-Cutting/CakeCutting";
 import BirthdayCountdown from "./component/Birthday-Countdown/birthday-countdown";
+import Test from "./component/test/test";
 
 function App() {
-  const birthdayDate = new Date("2024-11-03T00:00:00"); // Set your birthday date here
-  //const birthdayDate = new Date("2024-01-03T00:00:00");
+  //const birthdayDate = new Date("2024-11-03T00:00:00"); // Set your birthday date here
+  const birthdayDate = new Date("2024-01-03T00:00:00");
   const [isBirthdayPassed, setIsBirthdayPassed] = useState(false);
 
   useEffect(() => {
     const now = new Date();
     if (now > birthdayDate) {
-      setIsBirthdayPassed(true); // Set to true if the birthday date has passed
+      setIsBirthdayPassed(true);
     }
   }, [birthdayDate]);
 
@@ -22,15 +23,12 @@ function App() {
     <div>
       <BrowserRouter basename="/birthday-wish">
         <Routes>
-          {/* <Route
-          path="/count"
-          element={<BirthdayCountdown birthdayDate={birthdayDate.toString()} />}
-        /> */}
           {isBirthdayPassed ? (
             <>
               <Route path="/" element={<Home />} />
               <Route path="/cards" element={<BirthdayCard />} />
               <Route path="/cake" element={<CakeCutting />} />
+              <Route path="/test" element={<Test />} />
             </>
           ) : (
             <Route
