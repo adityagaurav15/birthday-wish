@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/birthday-wish/static/css/main.582d8509.css",
-    "main.js": "/birthday-wish/static/js/main.e174dc48.js",
-    "static/media/bday.gif": "/birthday-wish/static/media/bday.0ce5783f9aedb3cc3ef4.gif",
-    "static/media/background.JPEG": "/birthday-wish/static/media/background.8073fdf47906f597f68f.JPEG",
-    "static/media/cakegif.gif": "/birthday-wish/static/media/cakegif.176c5ab9b06bee684c1b.gif",
-    "static/media/img3.png": "/birthday-wish/static/media/img3.b8985e177a0164ab9644.png",
-    "static/media/img2.png": "/birthday-wish/static/media/img2.d9f778b4ffc76af88cfc.png",
-    "static/media/img1.png": "/birthday-wish/static/media/img1.4d994a64d1e2d6bf2b76.png",
+    "main.css": "/birthday-wish/static/css/main.7f421d22.css",
+    "main.js": "/birthday-wish/static/js/main.7aba9910.js",
+    "static/media/homePage.jpg": "/birthday-wish/static/media/homePage.ce4f1235505dfff2c32f.jpg",
+    "static/media/birthdayCard.jpg": "/birthday-wish/static/media/birthdayCard.a522d450a4edaec47495.jpg",
+    "static/media/collage.jpeg": "/birthday-wish/static/media/collage.ec91a77b8959fe0821fc.jpeg",
+    "static/media/wish.jpeg": "/birthday-wish/static/media/wish.85b94200580e2ffa6053.jpeg",
+    "static/media/birthdayInner.jpeg": "/birthday-wish/static/media/birthdayInner.b9139fc013b765621375.jpeg",
     "index.html": "/birthday-wish/index.html",
-    "main.582d8509.css.map": "/birthday-wish/static/css/main.582d8509.css.map",
-    "main.e174dc48.js.map": "/birthday-wish/static/js/main.e174dc48.js.map"
+    "main.7f421d22.css.map": "/birthday-wish/static/css/main.7f421d22.css.map",
+    "main.7aba9910.js.map": "/birthday-wish/static/js/main.7aba9910.js.map"
   },
   "entrypoints": [
-    "static/css/main.582d8509.css",
-    "static/js/main.e174dc48.js"
+    "static/css/main.7f421d22.css",
+    "static/js/main.7aba9910.js"
   ]
 }
