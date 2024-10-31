@@ -5,7 +5,7 @@ import Home from "./component/Home-page/Home";
 import BirthdayCard from "./component/Birthday-Card/BirthdayCard";
 import CakeCutting from "./component/Cake-Cutting/CakeCutting";
 import BirthdayCountdown from "./component/Birthday-Countdown/birthday-countdown";
-import Test from "./component/test/test";
+import Photo from "./component/Photo/Photo";
 
 function App() {
   //const birthdayDate = new Date("2024-11-03T00:00:00"); // Set your birthday date here
@@ -28,7 +28,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/cards" element={<BirthdayCard />} />
               <Route path="/cake" element={<CakeCutting />} />
-              <Route path="/test" element={<Test />} />
+              <Route path="/photo" element={<Photo />} />
             </>
           ) : (
             <Route
