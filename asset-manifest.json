@@ -1,18 +1,31 @@
 {
   "files": {
-    "main.css": "/birthday-wish/static/css/main.c57a54fb.css",
-    "main.js": "/birthday-wish/static/js/main.9e7778c0.js",
+    "main.css": "/birthday-wish/static/css/main.ce0a750b.css",
+    "main.js": "/birthday-wish/static/js/main.1137a751.js",
+    "static/media/smile.gif": "/birthday-wish/static/media/smile.952ba80fea5a5982b03c.gif",
     "static/media/homePage.jpg": "/birthday-wish/static/media/homePage.ce4f1235505dfff2c32f.jpg",
     "static/media/birthdayCard.jpg": "/birthday-wish/static/media/birthdayCard.a522d450a4edaec47495.jpg",
+    "static/media/img4.jpeg": "/birthday-wish/static/media/img4.ae16db7842075eb9f991.jpeg",
+    "static/media/img12.jpeg": "/birthday-wish/static/media/img12.cff1f3e42e99ba6518b3.jpeg",
+    "static/media/img6.jpeg": "/birthday-wish/static/media/img6.ac315c017e841b9b24b1.jpeg",
+    "static/media/img2.jpeg": "/birthday-wish/static/media/img2.4e6bc7023043af066eeb.jpeg",
+    "static/media/img10.jpeg": "/birthday-wish/static/media/img10.df7cecda87a3649898ed.jpeg",
+    "static/media/img11.jpeg": "/birthday-wish/static/media/img11.fcca005aa34ba64b4200.jpeg",
+    "static/media/img3.jpeg": "/birthday-wish/static/media/img3.bd3618549dc29e089dd5.jpeg",
+    "static/media/img7.jpeg": "/birthday-wish/static/media/img7.21dc80dd93dc5baa9e8a.jpeg",
     "static/media/collage.jpeg": "/birthday-wish/static/media/collage.ec91a77b8959fe0821fc.jpeg",
+    "static/media/img9.jpeg": "/birthday-wish/static/media/img9.14b9aa40bf4095fd2e41.jpeg",
+    "static/media/img8.jpeg": "/birthday-wish/static/media/img8.f3f2ac44d8f8a777c060.jpeg",
+    "static/media/img5.jpeg": "/birthday-wish/static/media/img5.e59c75af5c4d49b48219.jpeg",
     "static/media/wish.jpeg": "/birthday-wish/static/media/wish.85b94200580e2ffa6053.jpeg",
+    "static/media/img1.jpeg": "/birthday-wish/static/media/img1.c9836d4636954d9fe70c.jpeg",
     "static/media/birthdayInner.jpeg": "/birthday-wish/static/media/birthdayInner.b9139fc013b765621375.jpeg",
     "index.html": "/birthday-wish/index.html",
-    "main.c57a54fb.css.map": "/birthday-wish/static/css/main.c57a54fb.css.map",
-    "main.9e7778c0.js.map": "/birthday-wish/static/js/main.9e7778c0.js.map"
+    "main.ce0a750b.css.map": "/birthday-wish/static/css/main.ce0a750b.css.map",
+    "main.1137a751.js.map": "/birthday-wish/static/js/main.1137a751.js.map"
   },
   "entrypoints": [
-    "static/css/main.c57a54fb.css",
-    "static/js/main.9e7778c0.js"
+    "static/css/main.ce0a750b.css",
+    "static/js/main.1137a751.js"
   ]
 }
