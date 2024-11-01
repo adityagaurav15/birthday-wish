@@ -16,7 +16,7 @@ import img12 from "../../assets/img12.jpeg";
 
 const Test = () => {
   const firstLine = [img1, img2, img3, img4, img5, img6];
-  const secondLine = [img7, img8, img9, img10, img11, img12];
+  const secondLine = [img7, img8, img9, img10, img12, img11];
   return (
     <div className="background-photo ">
       <div style={{ display: "flex" }}>
