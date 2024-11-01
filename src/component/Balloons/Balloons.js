@@ -1,6 +1,5 @@
-// Balloons.js
 import React from "react";
-import "./Balloons.css"; // Separate CSS file for balloon animations
+import "./Balloons.css";
 
 const Balloons = () => {
   return (

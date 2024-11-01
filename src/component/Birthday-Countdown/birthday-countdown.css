@@ -1,15 +1,13 @@
 
   
-  /* src/BirthdayCountdown.css */
 .countdown {
     text-align: center;
     background: linear-gradient(120deg, #f6d365, #fda085);
     border-radius: 15px;
-    padding: 40px 20px; /* Adjusted padding for better spacing on mobile */
+    padding: 40px 20px; 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1s ease-in;
-    margin: 20px; /* Add margin to prevent the countdown from touching edges on mobile */
-    /* height: 100vh; */
+    margin: 20px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -19,7 +17,7 @@
   }
   .timer {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap for smaller screens */
+    flex-wrap: wrap; 
     justify-content: center;
     margin: 20px 0;
   }
@@ -28,10 +26,10 @@
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     padding: 20px;
-    margin: 10px; /* Increased margin for spacing on mobile */
+    margin: 10px; 
     transition: transform 0.2s;
-    flex: 1 1 120px; /* Flex item will grow and shrink, with a base width of 120px */
-    max-width: 150px; /* Maximum width for larger screens */
+    flex: 1 1 120px; 
+    max-width: 150px; 
   }
   
   .time:hover {
@@ -67,24 +65,23 @@
     }
   }
   
-  /* Media Queries for Responsiveness */
   @media (max-width: 600px) {
     .timer {
-      flex-direction: column; /* Stack items vertically on smaller screens */
+      flex-direction: column; 
     }
   
     .time {
-      width: 90%; /* Full width on mobile */
+      width: 90%;
     }
   
     .wish {
-      font-size: 1.2em; /* Smaller font size for mobile */
+      font-size: 1.2em; 
     }
   }
   
   @media (min-width: 601px) and (max-width: 900px) {
     .wish {
-      font-size: 1.4em; /* Adjust font size for medium screens */
+      font-size: 1.4em; 
     }
   }
   

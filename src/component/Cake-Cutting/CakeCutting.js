@@ -10,7 +10,6 @@ const CakeCutting = () => {
 
   const [cutCake, setCutCake] = useState(false);
 
-  // Animation variants for the cake and flame
   const cakeVariants = {
     initial: { scale: 0.8 },
     animate: { scale: 1, transition: { duration: 0.5 } },
