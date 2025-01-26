@@ -24,7 +24,7 @@ const Home = () => {
             transition={{ type: "spring", stiffness: 80 }}
             className="birthday-heading"
           >
-            🎉 Happy Birthday Saloni 🎉
+            🎉 Happy Birthday Naruto 🎉
           </motion.h1>
 
           <motion.div

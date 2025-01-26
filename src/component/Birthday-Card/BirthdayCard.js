@@ -20,14 +20,9 @@ const BirthdayCard = () => {
 
         <div className="text">
           <p className="title">
-            Happy Birthday! <br /> Saloni
+            Happy Birthday! <br /> Naruto
           </p>
-          <p>
-            "I was going to get you something amazing, but then I remembered—you
-            already have me. You're welcome! 😉 Jokes aside, may your day be
-            filled with laughter, cake, and lots of love. <br />
-            Once again, happiest birthday, Saloni! ❤️"
-          </p>
+          <p>"Stay blessed and party hard"</p>
         </div>
       </div>
       <div

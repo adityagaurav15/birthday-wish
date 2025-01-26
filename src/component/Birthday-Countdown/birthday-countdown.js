@@ -43,7 +43,7 @@ const BirthdayCountdown = ({ birthdayDate }) => {
   return (
     <>
       <div className="countdown">
-        <h1>Hey Saloni</h1>
+        <h1>Hey Naruto</h1>
         <h1>The Countdown to your Birthday has begun!</h1>
         <div className="timer">
           <div className="time">
